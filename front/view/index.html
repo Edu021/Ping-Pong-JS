@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Ping Pong</title>
+
+</head>
+    <body>
+        <div class="titulo">
+            <h1>Ping Pong</h1>
+        </div>
+
+        <div class="botoes">
+            <button id="iniciarBotao">Iniciar</button>
+            <button id="pararBotao">Parar</button>
+        </div>
+
+        <div id="placar">
+            <h1 id="placarPlayer1">Jogador 1: 0</h1>
+            <h1 id="placarPlayer2">Jogador 2: 0</h1>
+        </div>
+
+        <div class="campo-do-jogo">
+            <canvas id="campo" width="600" height="600">  </canvas>
+        </div>
+
+
+
+    </body>
+
+    <script src="../model/elementos.model.js"></script>
+    <script src="../controller/index.controller.js"></script>
+    <script src="../controller/listener.controller.js"></script>
+</html>

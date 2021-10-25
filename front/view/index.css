@@ -1,0 +1,14 @@
+.titulo {
+
+    text-align: center;
+    
+}
+
+.botoes {
+    text-align: center;
+}
+
+#campo {
+    border: 5px solid red;
+    background-color: black;
+}
